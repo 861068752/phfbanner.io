@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.carouselFrame{
+	width: 100%;
+	min-width: 320px;
+	max-width: 1024px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.imgul{
+	list-style: none;
+}
+.imgul:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.imgul li{
+	float: left;  
+}
+.dotul{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+.dotul:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.dotul li{
+	list-style: none;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.imgul li a,.imgul li a img{
+	display: block;
+	width: 100%;
+	vertical-align: middle;
+}
+.selectNow{
+	background: white !important;
+}

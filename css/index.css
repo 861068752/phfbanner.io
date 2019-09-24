@@ -1,0 +1,27 @@
+
+.jd_layout {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+}
+.jd_banner{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.jd_banner ul {
+  width: 1000%;
+}
+.jd_banner ul li {
+  float: left;
+  width: 10%;
+}
+.jd_banner ul li a {
+  display: block;
+  width: 100%;
+}
+.jd_banner ul li a img {
+  width: 100%;
+  display: block;
+}
